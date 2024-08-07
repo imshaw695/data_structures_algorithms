@@ -141,8 +141,8 @@ def measure_time(sort_function, arr):
 
 if __name__ == "__main__":
     # Generate a large array of random numbers
-    array_size = 10000
-    large_array = [random.randint(1, 10000) for _ in range(array_size)]
+    array_size = 20000
+    large_array = [random.randint(1, 20000) for _ in range(array_size)]
 
     # Copy the array for fair comparison
     arrays = {

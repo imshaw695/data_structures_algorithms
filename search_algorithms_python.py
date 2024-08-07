@@ -96,8 +96,8 @@ def measure_time(search_function, arr, target):
 
 if __name__ == "__main__":
     # Generate a large array of random numbers and sort it for binary and interpolation search
-    array_size = 10000
-    large_array = sorted([random.randint(1, 10000) for _ in range(array_size)])
+    array_size = 1000000
+    large_array = sorted([random.randint(1, 1000000) for _ in range(array_size)])
     target = random.choice(large_array)
 
     # Copy the array for fair comparison
